@@ -42,10 +42,11 @@ html {
         margin-top: -1px;
     }
 
+
     section video {
         background-color: rgba(255, 0, 0, 0.199);
         border-radius: 6px;
-        padding: 3px;
+        padding: 5px;
         margin-top: 10px;
     }
 

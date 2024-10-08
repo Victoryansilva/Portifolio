@@ -12,6 +12,7 @@ html {
 @media screen and (max-width: 2000px) {
     body {
         background-color: black;
+        text-align: center;
     }
     
     section {
@@ -50,22 +51,39 @@ html {
         margin-top: 10px;
     }
 
-    div.button {
-        padding: 10px;
-        margin-top: 20px;
+    #video {
+        display: flex;
     }
 
-    section a {
-        padding: 10px;
-        background-color: red;
-        border-radius: 10px;
+    .carrossel {
+        height: 250px;
+        width: 80%;
+        position: relative;
+    }
+
+    .carrossel .esquerda, 
+    .carrossel .direita {
         color: white;
-        text-decoration: none;
+        font-weight: bold;
+        height: 100%;
+        width: 45px;
+        line-height: 250px;
+        font-size: 25px;
+        text-align: center;
+        background-color: rgba(193, 197, 197, 0.582);
+        top: 0;
+        z-index: 3;
     }
 
-    section a:hover {
-        cursor: pointer;
-        background-color: rgb(128, 1, 1);
-        transition: .5s;
+    .esquerda {
+        position: absolute;
+        left: -30px;
     }
+
+    .direita {
+        position: absolute;
+        right: -60px;
+    }
+
+    
 }

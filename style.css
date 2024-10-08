@@ -20,7 +20,7 @@ html {
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
-        height: 100vh;
+        height: 100%;
         text-align: center;
         padding: 20px;
     }
@@ -30,7 +30,7 @@ html {
     }
 
     section h1 img {
-        width: 60px;
+        width: 80px;
     }
 
     section p {

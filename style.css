@@ -51,39 +51,6 @@ html {
         margin-top: 10px;
     }
 
-    #video {
-        display: flex;
-    }
-
-    .carrossel {
-        height: 250px;
-        width: 80%;
-        position: relative;
-    }
-
-    .carrossel .esquerda, 
-    .carrossel .direita {
-        color: white;
-        font-weight: bold;
-        height: 100%;
-        width: 45px;
-        line-height: 250px;
-        font-size: 25px;
-        text-align: center;
-        background-color: rgba(193, 197, 197, 0.582);
-        top: 0;
-        z-index: 3;
-    }
-
-    .esquerda {
-        position: absolute;
-        left: -30px;
-    }
-
-    .direita {
-        position: absolute;
-        right: -60px;
-    }
 
     
 }
